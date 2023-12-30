@@ -1,5 +1,5 @@
 #The Hashing function 
-def hash(a):
+def hashing(a):
     counter = 0
     hashing = []
     value = []
@@ -15,3 +15,8 @@ def hash(a):
     index = sum(value) / len(a)
     #return an Integer type, not a Float
     return(int(index))
+
+#a function to create an array, to organize and stock the Hash Table 
+def table(a)
+    size = a 
+    
