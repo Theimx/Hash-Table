@@ -1,4 +1,4 @@
-#The Hashing function 
+
 def hashing(a):
     counter = 0
     hashing = []
@@ -13,10 +13,17 @@ def hashing(a):
         counter += 1
     counter = 0
     index = sum(value) / len(a)
-    #return an Integer type, not a Float
     return(int(index))
 
 #a function to create an array, to organize and stock the Hash Table 
-def table(a):
-    size = a 
+def table(b):
+    size = b * 2
     
+#a function to place a word in the Table in the right place 
+def placing(a):
+    hash(a)
+    place(a)
+
+#a function to search a word in the table and return the content
+def read(a):
+    a = a 
