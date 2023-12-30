@@ -17,6 +17,6 @@ def hashing(a):
     return(int(index))
 
 #a function to create an array, to organize and stock the Hash Table 
-def table(a)
+def table(a):
     size = a 
     
