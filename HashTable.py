@@ -27,7 +27,10 @@ def placing(a):
 #a function to search a word in the table and return the content
 def read(a):
     a = a 
-    
+
+
+#FunctionToCreateTheArray(NameOfTheArray(string), nb_col(int), nb_row(int),LenghtOfTheRow(int))
+#FunctionToAddAnElement(NameOfTheArray(string), NumOfTheCol(int), NumOfTheRow(int),ElementToAdd)
 def createarray(name, nb_col):
     result = {}
     for i in range(nb_col):
