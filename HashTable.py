@@ -27,3 +27,9 @@ def placing(a):
 #a function to search a word in the table and return the content
 def read(a):
     a = a 
+def array(a,b):
+    nb_col = a 
+    size = b 
+
+    for i in a:
+        print("placeholder")
